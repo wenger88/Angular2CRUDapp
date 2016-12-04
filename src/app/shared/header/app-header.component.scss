@@ -1,0 +1,40 @@
+
+.header {
+	background-color: #f8f8f8;
+	display: flex;
+
+	.brand-name {
+		flex: 0 0 auto;
+		padding: 20px;
+		padding-left: 0px;
+		font-weight: bold;
+		text-transform: uppercase;
+		background: url("./images/creeper.png");
+	}
+
+	.top-navigation {
+		display: flex;
+
+		a {
+			text-transform: capitalize;
+			text-decoration: none;
+			padding: 20px 10px;
+			cursor: pointer;
+
+			&:link {
+			}
+
+			&.active {
+			   border-bottom: 5px solid #c7c7c7;
+			   padding-bottom: 15px;
+			}
+
+			&:hover {
+				background-color: #e7e7e7;
+			}
+
+			&:visited { 
+			}
+		}
+	}
+}
